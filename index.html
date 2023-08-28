@@ -5,10 +5,191 @@
   <title>Goatstone</title>
   <meta name="description" content="Goatstone">
   <meta name="keywords" content="web development">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-size: 16px;
+      line-height: 1.6rem;
+      margin: 0;
+      padding: 0;
+      background: black;
+    }
+
+    #root {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      color: #fff;
+      background: #333;
+      padding: 1%;
+      width: 100%;
+    }
+
+    h3 {
+      margin: 2% 0 2% 0;
+      padding: 1%;
+    }
+
+    h5 {
+      margin: 1% 0;
+      padding: 1%;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background: #333;
+      width: 100%;
+    }
+
+    header i {
+      color: #aaa;
+      font-size: 50%;
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      color: black;
+      background: #eee;
+      margin: 1%;
+      padding: 2%;
+      max-width: 400px;
+      border-radius: 1em;
+    }
+
+    header {
+      color: white;
+    }
+
+    header div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+
+    }
+
+    header div img.logo {
+      height: 7em;
+      /* margin: 1em; */
+    }
+
+    img {
+      margin: 1%;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    footer {
+      color: white;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      padding: 1%;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        flex-direction: column;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: orange;
+    }
+
+    a:visited {
+      color: gray;
+    }
+
+    a:link {
+      color: green;
+    }
+  </style>
 </head>
 
 <body>
   Goatstone
+
+  <header>
+    <h1>
+      Goatstone <i>Web Development</i>
+    </h1>
+    <span>
+    </span>
+    <div>
+      <span>contact: <em>goatstone@gmail.com</em></span>
+      <img src="images/goat-head-5-25-2022.svg" width="200" className="logo" alt="logo" />
+    </div>
+  </header>
+
+  <article>
+    <h3>Goatstone, Web Development</h3>
+    <p>
+      Goatstone is, Jose Collas. Here you will find a collection of some of my work.
+      I have been primarily using the technologies: JavaScipt, CSS, and HTML to implement the listed work.
+    </p>
+    <h4>
+      Github
+    </h4>
+    <ul>
+      <li>
+        <a href="https://github.com/joseherminiocollas" target="new">
+          github.com/joseherminiocollas
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/goatstone" target="new">github.com/goatstone</a>
+      </li>
+    </ul>
+  </article>
+  <article>
+    <h3>2DPhysics Data</h3>
+    <p>
+      2DPhysics Data is an exploration of visualizing data with a 2D physics layout.
+      The data displayed is 100 of the Heaviest Meteorites from NASA's Open Data Portal.
+    </p>
+    <a href="https://joseherminiocollas.github.io/react-matter/" target="new">
+      https://joseherminiocollas.github.io/react-matter/
+    </a>
+    <p>
+    </p>
+    Git Hub :
+    <a href="https://github.com/JoseHerminioCollas/react-matter" target="new">
+      https://github.com/JoseHerminioCollas/react-matter
+    </a>
+    <img src="images/2d-data-screen-shot.png" width="400" />
+  </article>
+  <article>
+    <h3>
+      View GIBS&nbsp;
+      <a href="https://viewgibs.world/" target="new">https://viewgibs.world/</a>
+    </h3>
+    <p>
+      View GIBS is a tool for viewing satellite images provided by NASA's Global Imagery Browse Services (GIBS) system.
+      GIBS : <a href="https://nasa-gibs.github.io/gibs-api-docs">
+        https://nasa-gibs.github.io/gibs-api-docs
+      </a>
+    </p>
+    <img src="images/view-gibs-app-sml.png" />
+  </article>
+  <footer>
+    Goatstone &copy; 2023
+  </footer>
 </body>
 
 </html>
