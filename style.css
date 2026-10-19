@@ -1,0 +1,165 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #fff;
+  background: #333;
+  padding: 1%;
+  width: 100%;
+}
+
+h2 {
+  margin: 2% 0 2% 0;
+  padding: 1%;
+}
+
+h3 {
+  margin: 1% 0;
+}
+
+nav {
+  width: 100%;
+  background: #222;
+  padding: 0.5em 1%;
+}
+
+nav a {
+  margin-right: 1.5em;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #333;
+  width: 100%;
+}
+
+header i {
+  color: #aaa;
+  font-size: 50%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background: #eee;
+  margin: 1%;
+  padding: 2%;
+  max-width: 400px;
+  border-radius: 1em;
+}
+
+header {
+  color: white;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+
+}
+
+header div img.logo {
+  height: 7em;
+  /* margin: 1em; */
+}
+
+img {
+  margin: 1%;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  text-align: right;
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:link {
+  color: green;
+}
+
+nav a:link,
+nav a:visited,
+header a:link,
+header a:visited,
+#contact a:link,
+#contact a:visited {
+  color: #ccc;
+}
+
+nav a:hover,
+header a:hover,
+#contact a:hover {
+  color: orange;
+}
+
+#contact {
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  padding: 2%;
+}
+
+#contact iframe {
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  border: 0;
+  background: #fff;
+  border-radius: 1em;
+}
+
+a:focus-visible {
+  outline: 2px solid orange;
+}
