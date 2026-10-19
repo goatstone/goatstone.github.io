@@ -163,3 +163,13 @@ header a:hover,
 a:focus-visible {
   outline: 2px solid orange;
 }
+
+h2.group {
+  width: 100%;
+  color: #fff;
+  margin: 1% 1% 0;
+}
+
+article.intro {
+  max-width: 800px;
+}
