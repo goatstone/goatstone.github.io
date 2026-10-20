@@ -111,6 +111,22 @@ footer {
   body {
     flex-direction: column;
   }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header h1 i {
+    display: block;
+  }
+
+  header div {
+    height: 100px;
+  }
+
+  header div img.logo {
+    height: 4.5em;
+  }
 }
 
 a {
