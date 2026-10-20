@@ -134,17 +134,21 @@ nav a:visited,
 header a:link,
 header a:visited,
 #contact a:link,
-#contact a:visited {
+#contact a:visited,
+#not-found a:link,
+#not-found a:visited {
   color: #ccc;
 }
 
 nav a:hover,
 header a:hover,
-#contact a:hover {
+#contact a:hover,
+#not-found a:hover {
   color: orange;
 }
 
-#contact {
+#contact,
+#not-found {
   width: 100%;
   box-sizing: border-box;
   color: white;
