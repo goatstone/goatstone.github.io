@@ -137,12 +137,18 @@ a:hover {
   color: orange;
 }
 
+article a,
+#contact a,
+#not-found a {
+  text-decoration: underline;
+}
+
 a:visited {
-  color: gray;
+  color: #595959;
 }
 
 a:link {
-  color: green;
+  color: #006400;
 }
 
 nav a:link,
